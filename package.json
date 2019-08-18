@@ -1,0 +1,25 @@
+{
+  "name": "@aomi/mobx-history",
+  "version": "1.0.0",
+  "author": "Sean <sean.snow@live.com>",
+  "repository": "git@github.com:aomitech/mobx-react-router-dom.git",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf *.d.ts *.js *.js.map **/*.d.ts **/*.js **/*.js.map",
+    "build": "tsc -d",
+    "watch": "tsc -d && tsc -w"
+  },
+  "keywords": [
+    "mobx",
+    "history",
+    "react",
+    "react-router"
+  ],
+  "devDependencies": {
+    "@types/history": "^4.7.2",
+    "jsdk": "^0.0.14-Alpha",
+    "mobx": "^5.13.0",
+    "typescript": "^3.5.3"
+  }
+}
