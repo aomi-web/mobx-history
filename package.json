@@ -1,6 +1,6 @@
 {
   "name": "@aomi/mobx-history",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sean <sean.snow@live.com>",
   "repository": "git@github.com:aomitech/mobx-react-router-dom.git",
   "license": "MIT",
@@ -17,9 +17,9 @@
     "react-router"
   ],
   "devDependencies": {
-    "@types/history": "^4.7.2",
+    "@types/history": "^4.7.8",
     "jsdk": "^0.0.14-Alpha",
-    "mobx": "^5.13.0",
-    "typescript": "^3.5.3"
+    "mobx": "^6.0.1",
+    "typescript": "^4.0.3"
   }
 }
