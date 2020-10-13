@@ -1,6 +1,6 @@
 import { action, observable } from 'mobx';
 import { autoBind } from 'jsdk/autoBind';
-import { History, Location, LocationState } from 'history';
+import { History, Location } from 'history';
 
 /**
  * 导航服务
@@ -9,7 +9,7 @@ import { History, Location, LocationState } from 'history';
 export class Navigation {
 
   @observable
-  location: Location<LocationState>;
+  location: Location;
 
   history: History;
 
