@@ -7,12 +7,14 @@ import { History, Location } from 'history';
 export class Navigation {
 
   @observable
-  location: Location;
+  location: Location | null = null;
 
   history: History;
 
   constructor() {
-    makeAutoObservable(this);
+    makeAutoObservable(this, undefined, {
+      autoBind: true
+    });
   }
 
   @action
